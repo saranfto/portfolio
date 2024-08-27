@@ -15,7 +15,7 @@ project_1_page = st.Page(
 )
 project_2_page = st.Page(
     "socialmedia_modal.py",
-    title="Diabetes Prediction Modal",
+    title="Profile Analysis Modal",
     icon=":material/bar_chart:",
 )
 
