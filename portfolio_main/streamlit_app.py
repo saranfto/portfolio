@@ -1,13 +1,4 @@
 import streamlit as st
-#The below code to hide the hamburger icon on the top right side in our web page,,,,,,,,,, header {visibility : hidden ;} is commended because we need header !
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            
-            </style>
-            """
-            #header {visibility: hidden;}
 
 
 # --- PAGE SETUP ---
