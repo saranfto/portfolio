@@ -8,6 +8,19 @@ about_page = st.Page(
     icon=":material/account_circle:",
     default=True,
 )
+
+certificates_page = st.Page(
+    "cert_lic.py",
+    title="Licences and Certifications",
+    icon=":material/thumb_up:",
+    
+    )
+contact_page = st.Page(
+    "contact.py",
+    title="Contact",
+    icon=":material/contacts:",
+    
+    )
 project_1_page = st.Page(
     "diabetes_modal.py",
     title="Diabetes Prediction Modal",
@@ -15,7 +28,7 @@ project_1_page = st.Page(
 )
 project_2_page = st.Page(
     "socialmedia_modal.py",
-    title="Profile Analysis Modal",
+    title="Diabetes Prediction Modal",
     icon=":material/bar_chart:",
 )
 
@@ -28,7 +41,7 @@ project_2_page = st.Page(
 
 pg = st.navigation(
     {    
-        "Info": [about_page],
+        "Info": [about_page,certificates_page,contact_page],
         "Projects": [project_1_page,project_2_page],
     }
 )

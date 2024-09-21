@@ -20,7 +20,7 @@ st.subheader("Experience", anchor=False)
 st.write(
     """
     
-Operations Manager, Wasl International Exim\n
+Operations Manager, Wasl International\n
 March 2024 – Present\n
 Managing operations at Wasl International Exim, I oversee supply chain logistics, optimize processes, and lead cross-functional teams. My focus is on improving efficiency, negotiating with suppliers, and ensuring compliance with international trade regulations, all to drive company success in a competitive market.
 
